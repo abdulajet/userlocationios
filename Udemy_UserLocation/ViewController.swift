@@ -55,7 +55,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         let region: MKCoordinateRegion = MKCoordinateRegion(center: location, span: span)
         
         self.map.setRegion(region, animated: true)
-       
+        
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = CLLocationCoordinate2DMake(lat, long)
+        self.map.addAnnotation(annotation)
     }
     
     
