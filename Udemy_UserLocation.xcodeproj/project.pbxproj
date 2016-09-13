@@ -12,6 +12,7 @@
 		414F21981D87AC2E00A75AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414F21961D87AC2E00A75AF8 /* Main.storyboard */; };
 		414F219A1D87AC2E00A75AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414F21991D87AC2E00A75AF8 /* Assets.xcassets */; };
 		414F219D1D87AC2E00A75AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414F219B1D87AC2E00A75AF8 /* LaunchScreen.storyboard */; };
+		414F21A61D87AC7500A75AF8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414F21A51D87AC7500A75AF8 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		414F21991D87AC2E00A75AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		414F219C1D87AC2E00A75AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		414F219E1D87AC2E00A75AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414F21A51D87AC7500A75AF8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414F21A61D87AC7500A75AF8 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				414F21911D87AC2E00A75AF8 /* Udemy_UserLocation */,
 				414F21901D87AC2E00A75AF8 /* Products */,
+				414F21A41D87AC7500A75AF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				414F219E1D87AC2E00A75AF8 /* Info.plist */,
 			);
 			path = Udemy_UserLocation;
+			sourceTree = "<group>";
+		};
+		414F21A41D87AC7500A75AF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				414F21A51D87AC7500A75AF8 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
